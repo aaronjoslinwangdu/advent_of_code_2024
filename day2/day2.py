@@ -2,7 +2,7 @@ from bisect import bisect_left
 
 
 def main():
-    reports = parse_file('day2_input.txt')
+    reports = parse_file('input.txt')
     safe, safe_with_removal = get_safe_report_count(reports)
     print(f'Safe without removal: {safe}')
     print(f'Safe with removal: {safe_with_removal}')

@@ -9,7 +9,7 @@ def main():
 def get_lists_from_input():
     list1, list2 = [], []
 
-    for line in open('day1_input.txt', 'r'):
+    for line in open('input.txt', 'r'):
         space_idx = line.find(' ')
         list1.append(int(line[:space_idx]))
         list2.append(int(line[space_idx + 1:]))
